@@ -1,0 +1,90 @@
+.button-switch, a.button-switch {
+  border-radius: 4px;
+  border: 2px solid rgb(92, 92, 92);
+  background-color: white;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  height: 42px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.2);
+  &.purple {
+    color: #645496;
+    border-color: #645496;
+  }
+  &.red {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+}
+
+
+
+.button-switch-inverse {
+  border-radius: 4px;
+  border: 2px solid rgb(92, 92, 92);
+  color: white;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  height: 42px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.2);
+  &.purple {
+    border: 2px groove #645496;
+    background-color: #645496;
+  }
+}
+  .button-switch, .button-switch-inverse {
+    &.large{
+      font-size: 20px;
+      padding: 12px;
+      height: 56px;
+    }
+    &.box {
+      border-radius: 0px;
+      border-style: ridge;
+    }
+    &.pill {
+      border-radius: 15px;
+      border-style: groove; 
+    }
+  }
+  
+  .button-switch:hover, .button-switch:focus, .button-switch:active, 
+  a.button-switch:hover, a.button-switch:focus, a.button-switch:active {
+    color: white;
+    border-color: transparent;
+    &.purple {
+      background-color: #645496;  
+    }
+    &.red {
+      background-color: #dc3545;  
+    }
+  }
+  .button-switch-inverse:hover, .button-switch-inverse:focus, .button-switch-inverse:active,
+  a.button-switch-inverse:hover, a.button-switch-inverse:focus, a.button-switch-inverse:active {
+    background-color: white;
+    &.purple {
+      color: #645496;
+      border-color: #645496;
+    }
+    .red {
+      color: #dc3545;
+      border-color: #dc3545;
+    }
+  }
+  
+  .button-switch:focus, .button-switch-inverse:focus {
+    text-decoration: underline;
+  }
+
