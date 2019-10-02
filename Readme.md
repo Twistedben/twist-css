@@ -1,7 +1,7 @@
 # Twist.css
 
 A CSS library for making stylish buttons quickly, aligning content, and using phone/desktop/tablet responsiveness.
-It can be used in conjunction with Bootstrap, but can completely replace Bootstrap, and in many ways improves upon the responsiveness of Bootstrap.
+It can be used in conjunction with Bootstrap, but can completely replace Bootstrap, and in many ways simplifies the responsiveness of Bootstrap.
 
 ### Reason
 
